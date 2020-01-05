@@ -11,11 +11,15 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav ml-auto">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Головна</a></li>
-                <li class="nav-item"><a class="nav-link" href="about-us.html">Про нас</a></li>
-                <li class="nav-item"><a class="nav-link" href="about-us.html">Детальніше</a></li>
-                <li class="nav-item"><a class="nav-link" href="about-us.html">Новини</a></li>
-                <li class="nav-item"><a class="nav-link" href="about-us.html">Контакти</a></li>
+                {% for item in site.data.navigation %}
+                <li class="nav-item {% if page.url== item.link %}active{% endif %}">
+                    <a class="nav-link"
+                       href="{{ item.link }}"
+                    >
+                        {{ item.name }}
+                    </a>
+                </li>
+                {% endfor %}
             </ul>
         </div>
     </div>
