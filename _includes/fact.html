@@ -1,0 +1,29 @@
+<!--================ Start Fact Area =================-->
+<div class="fact_area overlay">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="main_title">
+                    <h2>Факти про нас</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for feature in site.data.features %}
+            <!-- single features -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single_fact">
+                    <div class="f_icon">
+                        <img src="/assets/images/f-icons/{{ feature.image }}" alt="">
+                    </div>
+                    <h4>{{ feature.title }}</h4>
+                    <p>
+                        {{ feature.description }}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!--================ End Fact Area =================-->

@@ -938,12 +938,6 @@ button:focus {
 ============================================================================================ */
 /* Start Popular Courses Area css
 ============================================================================================ */
-.course_description{
-    font-weight: normal;
-    line-height: normal;
-    color: #000;
-}
-
 .popular_courses {
     padding: 120px 0 90px;
 }
@@ -1239,7 +1233,7 @@ button:focus {
 .fact_area {
     position: relative;
     color: #fff;
-    background-image: url(../img/features-bg1.jpg);
+    background-image: url(/assets/images/features-bg1.jpg);
     background-size: cover;
     z-index: 1;
     padding: 120px 0 90px;
@@ -1261,7 +1255,7 @@ button:focus {
 }
 
 .fact_area .col-lg-4:nth-child(5) .single_fact {
-    margin-top: -129px;
+    /*margin-top: -129px;*/
 }
 
 @media (max-width: 991px) {
@@ -1311,7 +1305,8 @@ button:focus {
 }
 
 .single_fact p {
-    margin: 0px;
+    font-weight: normal;
+    margin: 0;
 }
 
 .single_fact .f_icon {
@@ -4603,6 +4598,16 @@ h6 {
         text-align: left;
         margin-top: 20px;
     }
+}
+
+.default-text{
+    font-weight: normal;
+    line-height: normal;
+    color: #000;
+}
+
+.white{
+    color: #fff;
 }
 
 /*---------------------------------------------------- */
