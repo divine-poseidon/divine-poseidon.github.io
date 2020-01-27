@@ -1,0 +1,17 @@
+[
+  {
+    "name": "facebook",
+    "class": "fa fa-facebook",
+    "link": "#"
+  },
+  {
+    "name": "twitter",
+    "class": "fa fa-twitter",
+    "link": "#"
+  },
+  {
+    "name": "dribbble",
+    "class": "fa fa-dribbble",
+    "link": "#"
+  }
+]

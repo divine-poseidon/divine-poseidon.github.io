@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Основне",
+    "items": [
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      }
+    ]
+  },
+  {
+    "title": "Корисне",
+    "items": [
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      }
+    ]
+  },
+  {
+    "title": "Електронна бібліотека",
+    "items": [
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      }
+    ]
+  },
+  {
+    "title": "Психологічна служба",
+    "items": [
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      }
+    ]
+  },
+  {
+    "title": "Контакти",
+    "items": [
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      },
+      {
+        "link": "#",
+        "label": "Lorem ipsum"
+      }
+    ]
+  }
+]
