@@ -3,21 +3,18 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-6 col-4 header-top-left">
-                    <a href="tel:+380532607452">
+                    <a href="tel:{{site.data.contactData.phoneLink}}">
                         <span class="lnr lnr-phone"></span>
                         <span class="text">
-								<span class="text">+38(0532) 60-74-52</span>
+								<span class="text">{{ site.data.contactData.phone }}</span>
 							</span>
                     </a>
-                    <a href="mailto:info@polytechnic.poltava.ua">
+                    <a href="mailto:{{ site.data.contactData.email }}">
                         <span class="lnr lnr-envelope"></span>
                         <span class="text">
-								<span class="text">info@polytechnic.poltava.ua</span>
+								<span class="text">{{ site.data.contactData.email }}</span>
 							</span>
                     </a>
-                </div>
-                <div class="col-lg-6 col-sm-6 col-8 header-top-right">
-                    <a href="#" class="text-uppercase">Login</a>
                 </div>
             </div>
         </div>
