@@ -19,6 +19,7 @@ theme.
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:400,600");
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /*---------------------------------------------------- */
@@ -26,7 +27,7 @@ theme.
 body {
     line-height: 25px;
     font-size: 16px;
-    font-family: "Crimson Text", serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: 600;
     color: #777777;
 }
@@ -511,7 +512,7 @@ button:focus {
 }
 
 .header-top .header-top-left a .text span {
-    font-size: 16px;
+    font-size: 14px;
     color: #ffffff;
 }
 
