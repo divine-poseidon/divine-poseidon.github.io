@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<!-- Page Content -->
+<div class="container">
+
+    <div class="row justify-content-center">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-8">
+
+            <!-- Title -->
+            <h1 class="mt-4">{{ page.title }}</h1>
+
+            <hr>
+
+            <!-- Date/Time -->
+            <p>{{ page.date | date: "%d.%m.%Y %H:%M" }} - {{ page.author }}</p>
+
+            <hr>
+
+            <!-- Preview Image -->
+            <img class="img-fluid rounded" src="https://picsum.photos/900/300" alt="">
+
+            <hr>
+
+            <!-- Post Content -->
+            {{ content }}
+            <hr>
+
+        </div>
+
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
