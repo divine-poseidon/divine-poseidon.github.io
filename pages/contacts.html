@@ -1,0 +1,104 @@
+---
+layout: default
+title: Контакти
+---
+<div class="container section-margin">
+    <section>
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Зв'яжіться з нами</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">
+            У вас є які-небудь питання? Зв'яжіться з нами безпосередньо і ми обов'язково дамо Вам відповідь
+        </p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="#" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control" required>
+                                <label for="name" class="">Ім'я</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control" required>
+                                <label for="email" class="">Пошта</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control" required>
+                                <label for="subject" class="">Тема</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                          class="form-control md-textarea" required></textarea>
+                                <label for="message">Повідомлення</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <input type="submit" id="submit" class="btn btn-primary" value="Відправити">
+
+                </form>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-2x"></i><br>
+                        <a href="https://www.google.com/maps/place/Poltava+Polytechnic+College/@49.5877683,34.5408448,17z/data=!4m13!1m7!3m6!1s0x40d82f59eb8a5a15:0xbf217069d431402c!2sPushkina+St,+83%D0%B0,+Poltava,+Poltavs'ka+oblast,+36000!3b1!8m2!3d49.5877648!4d34.5430388!3m4!1s0x40d82f59e9883d53:0x91f5c28b303238bf!8m2!3d49.5877802!4d34.5430454"
+                           target="_blank">
+                            м.Полтава, вул. Пушкіна, 83 А
+                        </a>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i><br>
+                        <a href="tel:{{site.data.contactData.phoneLink}}">{{ site.data.contactData.phone }}</a>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <a href="mailto:{{ site.data.contactData.email }}">{{ site.data.contactData.email }}</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+</div>

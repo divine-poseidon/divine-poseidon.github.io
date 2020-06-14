@@ -4,19 +4,19 @@
     "link": "/"
   },
   {
-    "name": "Про нас",
-    "link": "#"
-  },
-  {
-    "name": "Детальніше",
-    "link": "#"
-  },
-  {
     "name": "Новини",
-    "link": "pages/news.html"
+    "link": "/pages/news.html"
+  },
+  {
+    "name": "Інформація для абітурієнтів",
+    "link": "/pages/entrant_information.html"
   },
   {
     "name": "Контакти",
-    "link": "#"
+    "link": "/pages/contacts.html"
+  },
+  {
+    "name": "Історія",
+    "link": "/pages/history.html"
   }
 ]

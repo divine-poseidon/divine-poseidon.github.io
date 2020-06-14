@@ -1,17 +1,17 @@
 [
   {
     "name": "facebook",
-    "class": "fa fa-facebook",
+    "class": "fas fas-facebook",
     "link": "#"
   },
   {
     "name": "twitter",
-    "class": "fa fa-twitter",
+    "class": "fas fas-twitter",
     "link": "#"
   },
   {
     "name": "dribbble",
-    "class": "fa fa-dribbble",
+    "class": "fas fas-dribbble",
     "link": "#"
   }
 ]

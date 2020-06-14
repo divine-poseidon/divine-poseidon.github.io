@@ -1,0 +1,87 @@
+---
+layout: default
+title: Інформація для абітурієнтів
+---
+<div class="container section-margin">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Інформація для абітурієнтів</h2>
+    <div class="row">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"
+                    src="https://docs.google.com/file/d/0BweuCDmGnAnNTWphd3hPWmZoSjg/preview#t=0.5" width="480" height="270"
+                    allowfullscreen></iframe>
+        </div>
+        <p style="margin-top: 20px">
+            Проводиться набір студентів
+            на I курс денного відділення на базі 9 класів
+            на II курс денного відділення на базі 11 класів
+            за спеціальностями:
+        <ul>
+            <li>Монтаж і експлуатація електротехнічних та світлотехнічних установок (навчання за держзамовленням і
+                контрактом);
+            </li>
+            <li>Розробка програмного забезпечення (навчання за держзамовленням і контрактом);</li>
+            <li>Технологія обробки матеріалів на верстатах та автоматичних лініях (навчання за держзамовленням і
+                контрактом);
+            </li>
+            <li>Монтаж і експлуатація електроустаткування підприємств і цивільних споруд (навчання за держзамовленням і
+                контрактом);
+            </li>
+            <li>Обслуговування комп'ютерних систем і мереж (навчання за держзамовленням і контрактом);</li>
+        </ul>
+        </p>
+        <p>
+            <b style="color: #000">Термін навчання:</b><br>
+            На базі 9 класів - <b style="color: #000">3 р. 10 міс.</b><br>
+            На базі 11 класів - <b style="color: #000">2 р. 10 міс.</b><br>
+        </p>
+    </div>
+
+    <div class="row justify-content-center">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Вартість навчання</h2>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th scope="col"><b style="color:#000;">Спеціальність</b></th>
+                <th scope="col"><b style="color:#000;">Спеціалізація</b></th>
+                <th scope="col"><b style="color:#000;">Вартість навчання за рік, грн.</b></th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for course in site.data.coursesCost %}
+            <tr>
+                <td>{{ course.speciality }}</td>
+                <td>{{ course.specialization}}</td>
+                <td>{{ course.studyCost}}</td>
+            </tr>
+            {% endfor; %}
+            </tbody>
+        </table>
+    </div>
+    <div class="row justify-content-center">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Абітурієнти подають</h2>
+        <ul>
+            <li>заяву на ім'я ректора;</li>
+            <li>атестат про повну середню освіту або свідоцтво про загальну базову середню освіту (оригінал і копію);
+            </li>
+            <li>4 фотокартки 3x4;</li>
+            <li><b style="color: red">паспорт громадянина України (ID-картка) - <a target="_blank"
+                                                                                   href="https://drive.google.com/file/d/0BweuCDmGnAnNVjJYaDJ2blhWcTQ/view?usp=sharing">пояснення</a></b>
+            </li>
+            <li>копію картки платника податків;</li>
+            <li>сертифікат з української мови та літератури і математики або фізики або історії України (для
+                випускникків 11 класів).
+            </li>
+
+        </ul>
+    </div>
+    <div>
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Контакти приймальної комісії</h2>
+        <p>
+            Телефон - <a href="tel:+38(095)1087508" target="_blank">(095) 108 75 08</a><br>
+            Пошта - <a href="mailto:selectppc@polytechnic.poltava.ua"
+                       target="_blank">selectppc@polytechnic.poltava.ua</a><br>
+        </p>
+    </div>
+</div>

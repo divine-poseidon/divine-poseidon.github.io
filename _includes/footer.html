@@ -2,33 +2,26 @@
 <footer class="footer-area section_gap">
     <div class="container">
         <div class="row">
-            {% for navSection in site.data.footerNavigation %}
-            <div class="col-lg-2 col-md-6 single-footer-widget">
-                <h4>{{ navSection.title }}</h4>
-                <ul>
-                    {% for item in navSection.items %}
-                    <li>
-                        
-                        <a href="{{ item.link }}">
-                            {{ item.label }}
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
+            {% for item in site.data.footerNavigation %}
+            <a class="nav-link"
+               href="{{ item.link }}"
+               style="color:#fff;"
+            >
+                {{ item.label }}
+            </a>
             {% endfor %}
         </div>
         <div class="row footer-bottom d-flex justify-content-between">
             <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">Copyright © 2018 All rights reserved | This
                 template is
                 made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a></p>
-            <div class="col-lg-4 col-sm-12 footer-social">
+<!--            <div class="col-lg-4 col-sm-12 footer-social">
                 {% for item in site.data.socialMedia %}
                 <a href="{{ item.link }}">
                     <i class="{{ item.class }}"></i>
                 </a>
                 {% endfor %}
-            </div>
+            </div>-->
         </div>
     </div>
 </footer>

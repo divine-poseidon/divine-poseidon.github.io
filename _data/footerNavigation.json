@@ -1,107 +1,18 @@
 [
   {
-    "title": "Основне",
-    "items": [
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      }
-    ]
+    "link": "/pages/library.html",
+    "label": "Електронна бібліотека"
   },
   {
-    "title": "Корисне",
-    "items": [
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      }
-    ]
+    "link": "/pages/psychological_service.html",
+    "label": "Психологічна служба"
   },
   {
-    "title": "Електронна бібліотека",
-    "items": [
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      }
-    ]
+    "link": "/pages/schedule.html",
+    "label": "Розклад"
   },
   {
-    "title": "Психологічна служба",
-    "items": [
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      }
-    ]
-  },
-  {
-    "title": "Контакти",
-    "items": [
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      },
-      {
-        "link": "#",
-        "label": "Lorem ipsum"
-      }
-    ]
+    "link": "/pages/students_rating.html",
+    "label": "Рейтинг студентів"
   }
 ]
