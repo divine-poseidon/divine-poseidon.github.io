@@ -1266,7 +1266,7 @@ button:focus {
 .fact_area {
     position: relative;
     color: #fff;
-    background-image: url(/assets/images/features-bg1.jpg);
+    background-image: url(/assets/images/features-bg1.webp);
     background-size: cover;
     z-index: 1;
     padding: 120px 0 90px;
