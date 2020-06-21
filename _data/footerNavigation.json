@@ -14,5 +14,9 @@
   {
     "link": "/pages/students_rating.html",
     "label": "Рейтинг студентів"
+  },
+  {
+    "link": "/pages/zno.html",
+    "label": "ЗНО"
   }
 ]
