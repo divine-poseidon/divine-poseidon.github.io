@@ -7,7 +7,7 @@ layout: default
     <div class="row justify-content-center">
 
         <!-- Post Content Column -->
-        <div class="col-lg-8">
+        <div class="col-lg-8 bold-text">
 
             <!-- Title -->
             <h1 class="mt-4">{{ page.title }}</h1>
@@ -15,15 +15,14 @@ layout: default
             <hr>
 
             <!-- Date/Time -->
-            <p>{{ page.date | date: "%d.%m.%Y %H:%M" }} - {{ page.author }}</p>
+            <p>{{ page.date | date: "%d.%m.%Y" }} - {{ page.author }}</p>
 
             <hr>
 
             <!-- Preview Image -->
-            <img class="img-fluid rounded" src="https://picsum.photos/900/300" alt="">
+            <img class="img-fluid rounded" src="{{page.imageUrl}}" alt=""/>
 
             <hr>
-
             <!-- Post Content -->
             {{ content }}
             <hr>

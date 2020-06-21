@@ -12,27 +12,18 @@ title: Новини
 
             {% for post in site.posts %}
             <!-- Blog Post -->
-            <div class="card mb-4">
-                <img class="card-img-top" src="https://picsum.photos/750/30{{ forloop.index0 }}" alt="rand picture">
+            <div class="card mb-4 bold-text">
+                <img class="card-img-top" src="{{ post.imageUrl}}" alt="rand picture">
                 <div class="card-body">
                     <h2 class="card-title">{{ post.title }}</h2>
                     <p class="card-text">{{ post.excerpt }}</p>
                     <a href="{{ post.url }}" class="btn btn-primary">Дізнатися більше &rarr;</a>
                 </div>
                 <div class="card-footer text-muted">
-                    {{ post.date | date: "%d.%m.%Y %H:%M" }} - {{ post.author }}
+                    {{ post.date | date: "%d.%m.%Y" }} - {{ post.author }}
                 </div>
             </div>
             {% endfor %}
-            <!-- Pagination -->
-            <ul class="pagination justify-content-center mb-4">
-                <li class="page-item">
-                    <a class="page-link" href="#">&larr; Older</a>
-                </li>
-                <li class="page-item disabled">
-                    <a class="page-link" href="#">Newer &rarr;</a>
-                </li>
-            </ul>
 
         </div>
 
